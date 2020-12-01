@@ -15,4 +15,6 @@ class MainApp(Tk):
 if __name__ == '__main__':
     app = MainApp()
     app.resizable(False, False)
+    app.iconbitmap('calculadora.ico') #añadir con .ico
+    #app.iconphoto(False, PhotoImage(file='calculadora.png'))
     app.mainloop()
